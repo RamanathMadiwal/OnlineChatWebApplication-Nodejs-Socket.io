@@ -1,0 +1,20 @@
+{
+  "name": "chatwebapp",
+  "version": "1.0.0",
+  "description": "chat app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "ramanath madiwal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "moment": "^2.18.1",
+    "socket.io": "^1.7.3"
+  }
+}
